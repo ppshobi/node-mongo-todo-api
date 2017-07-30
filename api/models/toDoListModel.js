@@ -4,7 +4,7 @@ var schema = mongoose.Schema;
 
 var TaskSchema = new schema({
     name : {
-        type : string,
+        type : String,
         Required : "Kindly enter a name for your task"
     },
 
